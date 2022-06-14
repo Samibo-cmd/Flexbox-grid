@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: azure;
+    display:flex;
+}
+.flexbox{
+    width: 50%;
+    margin: 30px auto;
+    align-items: center;
+    display: flex;
+    height: 80vh;
+}
+.div1{
+    background-color: rgb(236, 140, 29);
+    padding: 2.05em;
+    color: rgba(245, 235, 235, 0.781);
+    font-size: 11px;
+    width: 100%;
+}
+.div2{
+    background-color: rgb(17, 57, 73);
+    padding: 2em;
+    color: rgba(245, 235, 235, 0.781);
+    font-size: 11px;
+    width: 100%;
+}
+.div3{
+    background-color: rgb(28, 43, 28);
+    padding: 2em;
+    color: rgba(245, 235, 235, 0.781);
+    font-size: 11px;
+    width: 100%;
+}
+.information{
+    line-height: 200%;
+    margin: 20px 0px 50px 0;
+}
+.car{
+    margin-top: 20px;;
+}
+.button1{
+    border: thin solid rgb(236, 140,29);
+    border-radius: 20px;
+    color: rgb(236, 140, 29);
+    padding: 8px;
+}
+.button2{
+    border: thin solid rgb(17, 57, 73);
+    border-radius: 20px;
+    color: rgb(17, 57, 73); 
+    padding: 8px;
+}
+.button3{
+    border: thin solid rgb(28, 43,28);
+    border-radius: 20px;
+    color: rgb(28, 43, 28);
+    padding: 8px;
+}
+
+
+.grid{
+    display: grid;
+    width: 40%;
+    height: 60vh;
+    margin: 70px auto;
+    grid-template-areas: 
+    'a a a b'
+    'a a a b'
+    'c c d d'
+    'c c e e';
+    gap: 10px;
+}
+.item-1{
+    background-color: rgb(231, 16, 52);
+    grid-area: a;
+}
+.item-2{
+    background-color: orange;
+    grid-area: b;
+}
+.item-3{
+    background-color: rgb(19, 163, 19);
+    grid-area: c;
+}
+.item-4{
+    background-color: rgb(92, 186, 218);
+    grid-area: d;
+}
+.item-5{
+    background-color: rgb(92, 186, 218);
+    grid-area: e;
+}
+.menu{
+    margin: 30px auto;
+    font-size: 30px;
+    color: red;
+}
